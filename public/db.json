@@ -1,0 +1,39 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "imageUrl": "./public/img/card1.png",
+      "name": "Javascript Full-Stack разработка",
+      "price": 12000,
+      "previousPrice": 20000
+    },
+    {
+      "id": 1,
+      "imageUrl":  "./public/img/card1.png",
+      "name": "Веб Мастер",
+      "price": 10000,
+      "previousPrice": 18000
+    },
+    {
+      "id": 3,
+      "imageUrl": "./public/img/card1.png",
+      "name": "Android разработка",
+      "price": 12000,
+      "previousPrice": 18000
+    }, {
+      "id": 4,
+      "imageUrl":"./public/img/card1.png",
+      "name": "UX/UI+Front-End разработка",
+      "price": 10000,
+      "previousPrice": 18000
+    },
+    {
+      "id": 5,
+      "imageUrl": "./public/img/card1.png",
+      "name": "Интернет-Маркетолог",
+      "price": 12000,
+      "previousPrice": 18000
+    }
+
+  ]
+}

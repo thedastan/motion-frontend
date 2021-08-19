@@ -1,0 +1,24 @@
+footer {
+    background: #000000;
+    padding-top: 50px;
+}
+
+.footer:before {
+    content: "";
+    width: 926px;
+    height: 0;
+    border: 1px solid #1D1D1D;
+}
+
+.footer__title {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 34px;
+    color: #D1D1D1;
+}
+@media (max-width:320px) {
+    .footer__title {
+        font-size:11px;
+    }
+}

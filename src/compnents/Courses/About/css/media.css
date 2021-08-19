@@ -1,0 +1,1363 @@
+@media (max-width: 1024px) {
+    #header {
+        margin-left: 30px;
+    }
+
+    .lini {
+        margin-left: -60px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale__time {
+        margin-top: 380px;
+        width: 700px;
+        height: 150px;
+        margin-left: -45px;
+        text-align: center;
+    }
+
+    .sale__line2 {
+        margin-left: -45px;
+    }
+
+    .hero--title {
+        margin-left: 170px;
+        text-align: center;
+    }
+
+    .hero-description {
+        margin-left: 120px;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 572px;
+        height: 508px;
+        margin-left: 155px;
+    }
+
+    .time__title h2 {
+        margin-top: 35px;
+        width: 271px;
+    }
+
+    .help li {
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .help li a {
+        font-size: 22px;
+        margin-left: 42px;
+    }
+
+    .cards {
+        margin-left: 25px;
+    }
+
+    .card {
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 330px;
+        height: 576px;
+
+    }
+
+    .card2 {
+        width: 310px;
+        height: 100px;
+    }
+
+    .card2 p {
+        margin-left: 190px;
+        margin-top: -18px;
+    }
+
+    .card2 img {
+        margin-left: 200px;
+    }
+
+    .click a:nth-child(1) {
+        font-size: 12px;
+
+    }
+
+    .click a:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .click__me {
+        margin-left: 69px;
+        font-size: 12px;
+    }
+
+    .center__click {
+        margin-top: -8px;
+    }
+
+    .center__click a {
+        font-size: 12px;
+        margin-left: 175px;
+
+    }
+
+    .win {
+        width: 310px;
+    }
+
+    .win img {
+        margin-left: -45px;
+    }
+
+    .win div {
+        margin-left: 80px;
+    }
+
+    .courses__linu {
+        height: 3072px;
+    }
+
+    .feedback__linu {
+        margin-left: -43px;
+    }
+
+
+    .footer__bottom {
+        width: 1117px;
+        margin-top: 108px;
+    }
+
+    .feedback {
+        width: 940px;
+        height: 649px;
+    }
+
+    .feadback__blocks {
+        display: block;
+    }
+
+    .cards__block {
+        margin-left: -5px;
+    }
+
+    .feedback__icon {
+        margin-left: 530px;
+    }
+
+    .btn {
+        margin-top: -41px;
+        margin-left: 420px;
+    }
+
+    .cot__ceti {
+        margin-left: 413px;
+        margin-top: 549px;
+    }
+
+    .title2 {
+        margin-top: 181px;
+        margin-left: 192px;
+    }
+
+    .feedback__block {
+        padding-left: 63px;
+    }
+
+    .feedback__title h2 {
+        margin-top: 31px;
+    }
+
+    .click__me1 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    .click__me2 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    .click__me3 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    .click__me4 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    .click__me5 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    .click__me6 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    .click__me7 {
+        font-size: 14px;
+        margin-top: 303px;
+        margin-left: 86px;
+    }
+
+    /*/////////////////////////////////////////////////таб*/
+    .content {
+        margin-left: 603px;
+    }
+
+    .content2 {
+        margin-left: 610px;
+    }
+
+    .content4 {
+        margin-left: 610px;
+    }
+
+    .content5 {
+        margin-left: -148px;
+    }
+
+    .content6 {
+        margin-left: 610px;
+    }
+}
+
+/* ------------------------------------------------------------- */
+
+@media (max-width: 992px) {
+    #header {
+        margin-left: 73px;
+    }
+
+    .win img {
+        margin-left: 20px;
+    }
+
+    .win div {
+        margin-left: 125px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale__time {
+        margin-top: 377px;
+        margin-left: -68px;
+        text-align: center;
+    }
+
+    .sale__line2 {
+        margin-left: -35px;
+    }
+
+    .hero--title {
+        margin-left: 170px;
+        text-align: center;
+    }
+
+    .hero-description {
+        margin-left: 110px;
+        text-align: center;
+    }
+
+    .hero img {
+        margin-left: 150px;
+    }
+
+    #catalog {
+        margin-left: 15px;
+    }
+
+    .card2 img {
+        margin-left: 250px;
+    }
+
+    .card2 p {
+        margin-left: 270px;
+    }
+
+    .cards {
+        display: block;
+        margin-top: 130px;
+    }
+
+    .cards__block {
+        margin-left: 99px;
+    }
+
+    .card {
+        width: 410px;
+        height: 576px;
+    }
+
+    .win {
+        width: 390px;
+        height: 236px;
+
+    }
+
+    .card2 {
+        width: 390px;
+        height: 100px;
+    }
+
+
+    .courses__linu {
+        height: 5376px;
+    }
+
+    .feedback__icon {
+        margin-left: 205px;
+    }
+
+    .feedback__block {
+        padding-top: 150px;
+        margin-left: 37px;
+
+    }
+
+    .feadback__blocks {
+        display: block;
+        margin-left: -24px;
+    }
+
+    .feedback {
+        display: block;
+        margin-top: 100px;
+        width: 910px;
+        height: 915px;
+        margin-left: 14px;
+    }
+
+    .btn {
+        margin-top: 70px;
+        margin-left: 80px;
+
+    }
+
+    .cot__ceti {
+        border: 1px solid #000;
+        position: absolute;
+        margin-top: 162px;
+        margin-left: 255px
+    }
+
+    .feedback__title h1 {
+        margin-left: 116px;
+        text-align: -webkit-center;
+    }
+
+    .feedback__title h2 {
+        margin-left: 227px;
+        margin-top: 20px;
+    }
+
+    .feedback__input {
+        margin-left: 167px;
+        margin-top: 42px;
+    }
+
+    .footer__bottom {
+        width: 789px;
+    }
+
+    .click a:nth-child(2) {
+        margin-left: 105px;
+    }
+
+    /*/////////////////////////////////////////////////таб*/
+    .content {
+        margin-left: 360px;
+    }
+
+    .content1 {
+        margin-left: 360px;
+    }
+
+    .content2 {
+        margin-left: 360px;
+    }
+
+    .content3 {
+        margin-left: 360px;
+    }
+
+    .content4 {
+        margin-left: 360px;
+    }
+
+    .content5 {
+        margin-left: 360px;
+    }
+
+    .content6 {
+        margin-left: 360px;
+    }
+
+    .content7 {
+        margin-left: 360px;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #header {
+
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale__time {
+        width: 450px;
+        height: 250px;
+        margin-left: -50px;
+    }
+
+    .time {
+        display: block;
+    }
+
+    .time__title {
+        margin-left: 40px;
+    }
+
+    .help {
+        margin-left: 15px;
+    }
+
+    .sale__line2 {
+        margin-left: -35px;
+    }
+    .hero-description {
+        margin-left: -90px;
+    }
+
+    .hero--title {
+        margin-left: 65px;
+        text-align: center;
+    }
+
+    .hero__title p {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .hero img {
+        margin-left: 50px;
+    }
+
+    #catalog {
+        margin-left: 15px;
+    }
+
+    .cards {
+        margin-left: -80px;
+    }
+
+    .card {
+        margin-top: 100px
+    }
+
+    .cards__block {
+        margin-top: 150px;
+        margin-left: 99px;
+    }
+
+    .card {
+        width: 410px;
+        height: 576px;
+    }
+
+    .win {
+        width: 390px;
+        height: 236px;
+
+    }
+
+    .card2 {
+        width: 390px;
+        height: 100px;
+    }
+
+    .card2 img {
+        margin-left: 260px;
+    }
+
+    .card2 p {
+        margin-left: 190px;
+        margin-top: -18px;
+    }
+
+    .courses__linu {
+        height: 5725px;
+    }
+
+    .feedback__icon {
+        margin-left: 205px;
+    }
+
+    .feedback__block {
+        padding-top: 150px;
+        margin-left: 1px;
+
+    }
+
+    .feadback__blocks {
+        display: block;
+        margin-left: -72px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .feedback {
+        display: block;
+        margin-top: 100px;
+        width: 670px;
+        height: 915px;
+        margin-left: 14px;
+    }
+
+    .btn {
+        margin-top: 70px;
+        margin-left: 80px;
+
+    }
+
+    .cot__ceti {
+        border: 1px solid #000;
+        position: absolute;
+        margin-top: 162px;
+        margin-left: 255px
+    }
+
+    .feedback__title h1 {
+        margin-left: 116px;
+        text-align: -webkit-center;
+    }
+
+    .feedback__title h2 {
+        margin-left: 227px;
+        margin-top: 20px;
+    }
+
+    .feedback__input {
+        margin-left: 167px;
+        margin-top: 42px;
+    }
+
+    .footer__bottom {
+        width: 789px;
+    }
+
+    /*////////////////////////////////таб1*/
+    .content {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn {
+        margin-left: -115px;
+    }
+
+    .content__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content__img {
+        margin-left: -260px;
+    }
+
+    /*////////////////////////////////таб1*/
+    /*////////////////////////////////таб2*/
+    .content1 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -568px;
+    }
+
+    .close-btn1 {
+        margin-left: 364px;
+        margin-top: -645px;
+    }
+
+    .content1__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content1__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content1__img1 {
+        margin-left: 170px;
+        margin-top: -340px;
+    }
+
+
+    /*////////////////////////////////таб2*/
+    /*////////////////////////////////таб3*/
+    .content2 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn2 {
+        margin-left: 364px;
+    }
+
+    .content2__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content2__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content1__img2 {
+        margin-left: -20px;
+        margin-top: -31px;
+    }
+
+    /*////////////////////////////////таб3*/
+    /*////////////////////////////////таб4*/
+    .content3 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn3 {
+        margin-left: 356px;
+    }
+
+    .content3__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content3__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content1__img3 {
+        margin-left: -30px;
+        margin-top: 39px;
+    }
+
+    /*////////////////////////////////таб4*/
+    /*////////////////////////////////таб5*/
+    .content4 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn4 {
+        margin-left: 356px;
+    }
+
+    .content4__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content4__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content4__img {
+        margin-left: -22px;
+
+    }
+
+    /*////////////////////////////////таб5*/
+    /*////////////////////////////////таб6*/
+    .content5 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn5 {
+        margin-left: 356px;
+    }
+
+    .content5__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content5__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content5__img {
+        margin-left: -22px;
+
+    }
+
+    /*////////////////////////////////таб6*/
+    /*////////////////////////////////таб7*/
+    .content6 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn6 {
+        margin-left: 356px;
+    }
+
+    .content6__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content6__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content6__img {
+        margin-left: -22px;
+
+    }
+
+    /*////////////////////////////////таб7*/
+    /*////////////////////////////////таб8*/
+    .content7 {
+        width: 400px;
+        height: 560px;
+        margin-left: 305px;
+        margin-top: -550px;
+    }
+
+    .close-btn7 {
+        margin-left: 356px;
+    }
+
+    .content7__title h1 {
+        font-size: 30px;
+        margin: 18px 15px;
+        width: 206px;
+    }
+
+    .content7__title p {
+        font-size: 9px;
+        margin: 10px 15px;
+        margin-top: -15px;
+        width: 150px;
+    }
+
+    .content7__img {
+        margin-left: -22px;
+
+    }
+
+    /*////////////////////////////////таб8*/
+    .courses__block {
+        display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+    #header {
+
+    }
+
+    .icon {
+    }
+
+    .header__menu a img {
+        width: 40px;
+        height: 45px;
+    }
+
+    .header__menu h1 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .icon input {
+        position: absolute;
+        margin-left: 7px;
+        background: transparent;
+        border: none;
+        outline: none;
+        height: 30px;
+        color: #FFFFFF;
+        width: 0;
+        opacity: 0;
+        font-size: 10px;
+        border-bottom: 1px solid #fff;
+        padding-right: 30px;
+        transition: all .5s linear;
+    }
+
+    .lini {
+        width: 576px;
+        top: 86px;
+    }
+
+    .hero--title {
+        font-size: 55px;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+
+    .hero-description {
+        font-size: 18px;
+        margin-top: -20px;
+        margin-left: -173px;
+
+    }
+
+
+    .hero img {
+        width: 323px;
+        height: 276.52px;
+    }
+
+    #hero {
+        padding-top: 65px;
+    }
+
+    .sale__time {
+        margin-top: -4px;
+        margin-left: -334px;
+        width: 547px;
+        height: 220px;
+    }
+
+    .time {
+        display: block;
+        margin-top: 7px;
+    }
+
+    .time__title {
+        margin-left: 105px;
+    }
+
+    .time__title h1 {
+        margin-left: 4px;
+    }
+
+    .help {
+        margin-top: 30px;
+        margin-left: 62px;
+    }
+
+    .help a {
+        margin-left: 95px;
+    }
+
+    .sale__line2 {
+        margin-top: -121px;
+        margin-left: -37px;
+    }
+
+    .courses__cards__block {
+        display: block;
+    }
+
+    .courses__block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+
+    .courses__block__napr {
+        display: block;
+        width: 300px;
+    }
+
+    .courses__block__napr h1 {
+        margin-left: 25px;
+    }
+
+    .courses__block__napr li {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .kurs1 {
+        width: 233px;
+    }
+
+    .courses__linu {
+        display: none;
+    }
+
+    .courses__block__linu {
+        width: 570px;
+        margin-left: -34px;
+    }
+
+    .cards__block {
+        margin-left: 77px;
+        margin-top: -45px;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card {
+        margin-top: 130px;
+    }
+
+    /* //////////////////////////////////////// */
+    .puzyr__1,
+    .puzyr__2,
+    .puzyr__3,
+    .card:hover:before {
+        display: none;
+    }
+
+    /* ////////////////////////////////////// */
+    .feedback__linu {
+        margin-top: -70px;
+        width: 570px;
+        margin-left: -27px;
+    }
+
+    .feadback__blocks {
+        display: block;
+        margin-left: -65px;
+    }
+
+    .feedback {
+        width: 484px;
+        height: 660px;
+    }
+
+    .feedback__block {
+        padding-top: 33px;
+        margin-left: 1px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .feedback__title h1 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .feedback__title h2 {
+        margin-top: 350px;
+        margin-left: 130px;
+        position: absolute;
+        font-size: 12px;
+
+    }
+
+    .feedback__input {
+        margin-left: 55px;
+    }
+
+    .btn {
+        margin-left: 95px;
+    }
+
+    .feedback__icon {
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 284px;
+        width: 264.06px;
+        height: 187.27px;
+    }
+
+    .cot__ceti {
+        margin-top: 580px;
+        margin-left: 160px;
+        border: 1px solid #000;
+    }
+
+    #feedback {
+        padding-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .hero--title {
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .hero__title p {
+        margin-left: -130px;
+    }
+}
+
+/*/////////////////////////////////////////////////////*/
+@media (max-width: 320px) {
+    #header {
+        margin-left: -6px;
+    }
+
+    .header__menu h1 {
+        font-size: 14px;
+        margin-top: 17px;
+    }
+
+    .lini {
+        width: 320px;
+        margin-left: -7px;
+    }
+
+    .hero--title {
+        font-size: 30px;
+        line-height: 31px;
+        margin-left: -132px;
+        margin-bottom: 0;
+    }
+
+    .hero__title p {
+        font-size: 10px;
+        margin-left: -173px;
+        margin-top: -61px;
+        line-height: 15px;
+    }
+
+    .hero img {
+        width: 287px;
+        height: 224.52px;
+        margin-left: 5px;
+        margin-top: -35px;
+    }
+
+    .sale__line2 {
+        margin-top: -130px;
+        margin-left: -27px;
+    }
+
+    .sale__time {
+        margin-top: -89px;
+        margin-left: -342px;
+        width: 304px;
+        height: 120px;
+    }
+
+    .time__title {
+        margin-left: -9px;
+    }
+
+    .time__title h2 {
+        margin-top: 2px;
+        width: 271px;
+        margin-left: 24px;
+        font-size: 18px;
+    }
+
+    .time__title h1 {
+        font-size: 22px;
+        line-height: 5px;
+        margin-left: 22px;
+
+    }
+
+    .help li a {
+        font-size: 11px;
+        margin-left: -43px;
+        padding: 4px 9px;
+    }
+
+    .courses__block__napr h1 {
+        margin-left: -34px;
+        font-size: 16px;
+    }
+
+    .courses__block__napr li {
+        margin-top: 23px;
+        width: 134px;
+        height: 10px;
+    }
+
+    .lvl h1 {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 34px;
+        margin-top: -90px;
+        margin-bottom: 127px;
+    }
+
+    .courses__block__linu {
+        width: 320px;
+        margin-left: -28px;
+
+    }
+
+    .courses__block__napr li {
+        margin-top: 29px;
+        width: 211px;
+        height: 19px;
+        margin-bottom: 38px;
+    }
+
+
+    /*/////////////////////////////////////////////////*/
+    .card {
+        margin-top: 90px;
+        margin-left: -8px;
+        width: 290px;
+        height: 416px;
+    }
+
+    .win {
+        width: 268px;
+        height: 156px;
+    }
+
+    .win .img1 {
+        margin-left: 15px;
+        width: 240px;
+        height: 240px;
+        margin-top: -114px;
+    }
+
+    .win div {
+        margin-left: 57px;
+    }
+
+
+    .card2 {
+        width: 268px;
+        height: 60px;
+        margin-top: -113px;
+    }
+
+    .card2 h1 {
+        font-size: 20px;
+    }
+
+    .card2 h3 {
+        margin-top: -5px;
+        margin-left: 12px;
+    }
+
+    .card2 p {
+        margin-left: 174px;
+        margin-top: -31px;
+        font-size: 11px;
+    }
+
+    .card2 img {
+        margin-left: 151px;
+        width: 160px;
+        height: 160px;
+        margin-top: -152px;
+    }
+
+    .click__me {
+        margin-left: 44px;
+        font-size: 11px;
+        margin-top: 207px;
+    }
+
+    .center__click {
+        margin-top: 4px;
+    }
+
+    .center__click a {
+        font-size: 9px;
+        margin-left: 157px;
+    }
+
+    .win .img2 {
+        margin-top: -150px;
+        margin-left: -19px;
+        width: 260px;
+        height: 265px;
+    }
+
+    .click a:nth-child(1) {
+        font-size: 9px;
+    }
+
+    .click a:nth-child(2) {
+        margin-left: 21px;
+        font-size: 10px;
+        padding: 10px 27px;
+
+    }
+
+    .card3 img {
+        margin-left: 151px;
+        width: 160px;
+        height: 160px;
+        margin-top: -152px;
+    }
+
+    .win .img3 {
+        margin-top: -104px;
+        width: 310px;
+        height: 290px;
+        margin-left: 3px;
+    }
+
+    .win .img4 {
+        margin-top: -89px;
+        width: 257px;
+        height: 243px;
+        margin-left: 3px;
+    }
+
+    .win .img5 {
+        margin-top: -96px;
+        width: 220px;
+        height: 230px;
+        margin-left: 15px;
+    }
+
+    .win .img6 {
+        margin-top: -136px;
+        width: 310px;
+        height: 300px;
+        margin-left: 10px;
+    }
+
+    .win .img7 {
+        margin-top: -106px;
+        width: 235px;
+        height: 225px;
+        margin-left: -8px;
+    }
+
+    .win .img8 {
+        margin-top: -80px;
+        width: 240px;
+        height: 230px;
+        margin-left: 3px;
+    }
+
+    .feedback {
+        width: 289px;
+        height: 480px;
+        margin-left: 4px;
+    }
+
+    .feedback__icon {
+        position: absolute;
+        margin-top: -94px;
+        margin-left: 107px;
+        width: 244.06px;
+        height: 167.27px;
+    }
+
+    .feedback__linu {
+        width: 320px;
+        margin-left: -13px;
+    }
+
+
+    .title__container {
+        margin-top: 18px;
+        margin-left: -28px;
+        font-size: 20px;
+    }
+
+    .feedback__title h1 {
+        font-size: 10px;
+        margin-left: 54px;
+        width: 175px;
+        margin-top: 15px;
+    }
+
+    .input__name {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 210px;
+        padding-left: 10px;
+    }
+
+    .input__tel {
+        margin-top: 10px;
+        width: 210px;
+    }
+
+    .btn {
+        margin-left: -3px;
+        margin-top: 60px;
+        font-size: 12px;
+    }
+
+    .feedback__title h2 {
+        margin-top: 235px;
+        margin-left: 15px;
+        position: absolute;
+        font-size: 8px;
+        width: 150px;
+    }
+
+
+}

@@ -1,0 +1,136 @@
+/*feedback*/
+#feedback {
+    padding-bottom: 120px;
+}
+
+.feedback {
+    margin-top: 100px;
+    width: 1300px;
+    height: 460px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+}
+
+.feedback__linu {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: -150px;
+    margin-left: -113px;
+
+}
+
+.feedback__block {
+    padding-left: 30px;
+}
+
+.title {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 105.4%;
+    letter-spacing: 0.045em;
+    color: #000000;
+    /*padding-top: 46px;*/
+
+}
+
+.feedback__title h1 {
+    margin-top: 30px;
+    width: 456px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #000000;
+
+}
+
+.feedback__title h2 {
+    margin-top: 70px;
+    width: 280px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 135.4%;
+    letter-spacing: 0.045em;
+    color: #000000;
+
+}
+
+.input__name {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 370px;
+    border-bottom: 1px solid #000000;
+    transition: all .2s;
+    padding-left: 10px;
+}
+
+.input__name:focus {
+    background: #f8f8f8;
+}
+
+.input__tel {
+    margin-top: 20px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 370px;
+    border-bottom: 1px solid #000000;
+    padding-left: 10px;
+    transition: all .2s;
+}
+
+.input__tel:focus {
+    background: #f8f8f8;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 135.4%;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+    background: #EF0000;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 2px solid #EF0000;
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    border: 2px solid #000;
+    background: transparent;
+    color: #000;
+}
+
+.input__btn {
+    display: flex;
+}
+
+.feadback__blocks {
+    display: flex;
+}
+
+.feedback__input {
+    margin-left: 150px;
+}
+
+.feedback__icon {
+    position: absolute;
+    margin-top: -245px;
+    margin-left: 920px;
+}

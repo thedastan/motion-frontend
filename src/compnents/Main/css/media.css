@@ -1,0 +1,347 @@
+@media (max-width: 1024px) {
+    .img__1 {
+        margin-left: 505px;
+    }
+    .box-2 {
+        margin-left: 462px;
+    }
+    .flip-clock-wrapper div ul {
+        width: 31px;
+    }
+
+    .bev {
+        left: 552px;
+        z-index: 2;
+    }
+
+    .woow {
+        width: 935px;
+        height: 130px;
+    }
+
+    .woow-block {
+        margin-left: -38px;
+    }
+
+    .woow-title {
+        width: 440px;
+        margin-top: -15px;
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .flip-clock-wrapper div ul {
+        width: 30px;
+        height: 62px;
+    }
+    .bev {
+        margin-left: -120px;
+    }
+
+    .nav-menu1 {
+        display: none;
+    }
+
+    .bm-burger-button {
+        display: flex;
+    }
+
+    .nav-item {
+        color: #FFFFFF;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .box-2 {
+        margin-left: 450px;
+    }
+
+    .main--title {
+        font-size: 55px;
+    }
+
+    .main-desc {
+        font-size: 30px;
+    }
+
+
+    .woow {
+        width: 930px;
+    }
+
+    .woow-present {
+        top: -30px;
+        font-size: 35px;
+        left: -35px;
+    }
+
+    .woow-title {
+        font-size: 25px;
+        margin-top: 43px;
+        margin-left: 10px;
+    }
+
+    .woow-text {
+        font-size: 14px;
+    }
+    .aman2 {
+        padding-left: 231px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .bev {
+        margin-left: -230px;
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    .woow-text {
+        font-size: 20px;
+    }
+
+    .menu {
+        margin-left: -50px;
+    }
+
+    .box-2 {
+        z-index: -3;
+        margin-left: -70px;
+    }
+
+    .nasa {
+        width: 403px;
+        height: 571px;
+    }
+
+    .bg-nasa {
+        width: 400px;
+        height: 550px;
+    }
+
+    .main--title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main-desc {
+        font-size: 23px;
+        z-index: 499;
+    }
+
+    .woow-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .img__1 {
+        margin-left: 272px;
+    }
+    .woow-block {
+        width: 581px;
+        margin-left: 58px;
+    }
+
+    .sale {
+        right: -30px;
+    }
+
+    .woow {
+        width: 690px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .woow {
+        margin-top: 173px;
+        width: 380px;
+    }
+    .sale {
+        right: 0;
+    }
+    .col-sm12 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box-2 {
+        margin-left: -400px;
+        margin-top: -143px;
+    }
+
+    .bev {
+        left: 544px;
+        margin-top: -112px;
+
+    }
+
+
+    .logo1 {
+        display: none;
+    }
+    .woow-block {
+        width: 511px;
+        margin-left: 3px;
+    }
+
+    .woow {
+        width: 540px;
+        height: 180px;
+        margin-top: 250px;
+        padding: 70px 10px;
+
+    }
+
+    .logo {
+        width: 100px;
+        height: 60px;
+        margin-left: 35px;
+        margin-top: 12px;
+    }
+
+    .burger-menu {
+
+        z-index: 999;
+        right: 72px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    /*.woow-present {*/
+    /*    opacity: 0;*/
+    /*    position: absolute;*/
+    /*    left: 0;*/
+    /*    top: 0;*/
+    /*}*/
+    .burger-menu span:before {
+        background: #000;
+    }
+
+    .main--title {
+        margin-top: -90px;
+        line-height: 45px;
+    }
+
+    .nasa {
+        width: 352px;
+        height: 450px;
+    }
+
+    .bg-nasa {
+        width: 350px;
+        height: 450px;
+
+    }
+
+    .woow-title {
+        font-size: 21px;
+        width: 250px;
+        margin-left: 40px;
+        margin-top: 7px;
+        padding-top: 20px;
+    }
+
+    .demo {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .woow {
+        width: 370px;
+    }
+    .flip-clock-wrapper div ul {
+        width: 42px;
+    }
+
+    .bev{
+        left: 525px;
+        margin-top: -111px;
+    }
+    .main--title {
+        margin-top: -90px;
+        line-height: 45px;
+    }
+    .woow-block {
+        width: 370px;
+    }
+    .woow-title {
+        line-height: 23px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .woow {
+        width: 344px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bev {
+        left: 417px;
+        margin-top: -113px;
+        font-size: 24px;
+    }
+
+    .woow-present {
+        font-size: 20px;
+        left: -20px;
+    }
+    .nasa {
+        margin-top: -100px;
+    }
+    .img__1 {
+        margin-left: 172px;
+        width: 50px;
+        height: 450px;
+    }
+    .sale {
+        width: 69px;
+        height: 35px;
+    }
+
+    .woow {
+        width: 300px;
+    }
+
+    .main--title {
+        font-size: 24px;
+        z-index: 2;
+    }
+
+    .bg-nasa {
+        width: 321px;
+        height: 280px;
+        margin-left: -15px;
+
+    }
+
+    .bm-burger-button {
+        right: 30px;
+    }
+    .flip-clock-wrapper, .flip-clock-wrapper>div {
+        margin-left: 1px;
+    }
+
+    .nasa {
+        width: 321px;
+        height: 390px;
+        margin-left: -15px;
+    }
+
+    .box-2 {
+        margin-top: 16px;
+        margin-left: -437px;
+    }
+}
