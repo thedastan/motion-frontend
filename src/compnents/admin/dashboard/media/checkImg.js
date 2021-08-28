@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 
 import adminApi from '../../http';
 import Input from '../../input';
+import Navigation from "../../navigation";
 
 
 const DeleteImg = () => {
@@ -17,6 +18,7 @@ const DeleteImg = () => {
 
 	return (	
 		<div className="position-relative">
+			<Navigation />
 			<div className={`register__loading ${isLoading ? "active": ""}`}>
 				<i className="fas fa-spinner" />
 			</div>

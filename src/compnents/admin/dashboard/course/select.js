@@ -1,8 +1,9 @@
 import { useField } from 'formik';
 import { useSelector } from 'react-redux';
+import {useEffect} from "react";
 
 const Select = () => {
-	const [field] = useField({name: 'category'});
+	const [field, meta, helpers] = useField({name: 'category'});
 
 	const state = useSelector(state => {
 		return {
@@ -11,6 +12,14 @@ const Select = () => {
 		}
 	});
 
+	useEffect(() => {
+		if(state.allCategoryLoaded){
+			if(state.allCategory.length){
+				helpers.setValue(state.allCategory[0].categoryId);
+			}
+		}
+	}, [state.allCategoryLoaded]);
+
 	const outData = () => {
 		if(state.allCategoryLoaded){
 			if(state.allCategory.length){
@@ -18,7 +27,7 @@ const Select = () => {
 					return <option value={elem.categoryId} key={elem._id}>{elem.title}</option>
 				})
 			}
-			return <option>Нету категорий</option>
+			return <option className={"text-dark"}>Нету категорий</option>
 		}else {
 			return <option>Загружается</option>
 		}

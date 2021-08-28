@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './containers/Home/home';
-import { Switch, Route } from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import Courses from "./compnents/Courses/Courses";
 import axiosAPI from './axiosAPI';
 import Dev from "./compnents/Dev/dev";
@@ -25,13 +25,12 @@ import DeleteImg from './compnents/admin/dashboard/media/deleteImg';
 import CheckImg from './compnents/admin/dashboard/media/checkImg';
 import {setAllCategory, setAllCategoryLoaded, setHasError} from './redux/reducers/category';
 import ServiceOut from './compnents/admin/dashboard/service/outService';
-import { useDispatch, useSelector } from 'react-redux';
-
+import {useDispatch, useSelector} from 'react-redux';
 
 
 function App() {
     const dispatch = useDispatch();
-    const { checkIsAdmin } = AuthService();
+    const {checkIsAdmin} = AuthService();
     React.useEffect(() => {
         checkIsAdmin();
     }, []);
@@ -44,25 +43,25 @@ function App() {
 
     const outAdminComponent = () => {
         let result;
-        if(state.authInfoLoaded){
-            if(state.isAdmin){
-                result = <Admin />
-            }else {
+        if (state.authInfoLoaded) {
+            if (state.isAdmin) {
+                result = <Admin/>
+            } else {
                 result = <h1 className="text-dark">YOU HAVE NO RIGHTS TO BE HERE</h1>;
             }
-        }else {
+        } else {
             result = <h1 className="text-dark">LOADING ...</h1>
         }
-        return <Route path="/admin" exact >
+        return <Route path="/admin" exact>
             {result}
         </Route>
     }
 
     const fetchCategory = React.useCallback(async () => {
         try {
-            const { data } = await axiosAPI.post('/api/categories/get-categories');
+            const {data} = await axiosAPI.post('/api/categories/get-categories');
             dispatch(setAllCategory(data.categories))
-        } catch(e) {
+        } catch (e) {
             dispatch(setHasError(true));
         } finally {
             dispatch(setAllCategoryLoaded(true));
@@ -74,74 +73,74 @@ function App() {
 
     const outRoutes = () => {
         const path = '/admin';
-        if(state.authInfoLoaded){
-            if(state.isAdmin){
+        if (state.authInfoLoaded) {
+            if (state.isAdmin) {
                 return (
                     <>
-                        <DeleteModal />
-                        <Route path={`${path}/add-course`} exact={true} >
-                            <AddCourseBlock />
+                        <DeleteModal/>
+                        <Route path={`${path}/add-course`} exact={true}>
+                            <AddCourseBlock/>
                         </Route>
-                        <Route path={`${path}/courses`} exact >
-                            <CourseOut />
+                        <Route path={`${path}/courses`} exact>
+                            <CourseOut/>
                         </Route>
-                        <Route path={`${path}/change-course/:id`} exact >
-                            <ChangeCourse />
+                        <Route path={`${path}/change-course/:id`} exact>
+                            <ChangeCourse/>
                         </Route>
-                        <Route path={`${path}/add-project`} exact >
-                            <AddProjectBlock />
+                        <Route path={`${path}/add-project`} exact>
+                            <AddProjectBlock/>
                         </Route>
-                        <Route path={`${path}/change-project/:id`} exact >
-                            <ChangeProject />
+                        <Route path={`${path}/change-project/:id`} exact>
+                            <ChangeProject/>
                         </Route>
-                        <Route path={`${path}/projects`} exact >
-                            <ProjectOut />
+                        <Route path={`${path}/projects`} exact>
+                            <ProjectOut/>
                         </Route>
-                        <Route path={`${path}/add-service`} exact >
-                            <AddServiceBlock />
+                        <Route path={`${path}/add-service`} exact>
+                            <AddServiceBlock/>
                         </Route>
-                        <Route path={`${path}/services`} exact >
-                            <ServiceOut />
+                        <Route path={`${path}/services`} exact>
+                            <ServiceOut/>
                         </Route>
-                        <Route path={`${path}/change-service/:id`} exact >
-                            <ChangeService />
+                        <Route path={`${path}/change-service/:id`} exact>
+                            <ChangeService/>
                         </Route>
-                        <Route path={`${path}/change-services-order`} exact >
-                            <ChangeServiceOrder />
+                        <Route path={`${path}/change-services-order`} exact>
+                            <ChangeServiceOrder/>
                         </Route>
-                        <Route path={`${path}/upload-img`} exact >
-                            <UploadImg />
+                        <Route path={`${path}/upload-img`} exact>
+                            <UploadImg/>
                         </Route>
-                        <Route path={`${path}/delete-img`} exact >
-                            <DeleteImg />
+                        <Route path={`${path}/delete-img`} exact>
+                            <DeleteImg/>
                         </Route>
-                        <Route path={`${path}/check-img`} exact >
-                            <CheckImg />
+                        <Route path={`${path}/check-img`} exact>
+                            <CheckImg/>
                         </Route>
                     </>
                 )
-            }else {
+            } else {
                 return <h1>NOT ADMIN</h1>;
             }
-        }else {
+        } else {
             return <h2>LOADING</h2>;
         }
     }
-    return (
-        <div className="App">
-            <Switch>
-                <Route path="/" exact component={ Home } />
-                <Route path="/courses" exact component={ Courses } />
-                <Route path="/dev" exact component={ Dev } />
-                <Route path="/login" exact component={ Login } />
-                {outAdminComponent()}
-                {outRoutes()}
-                <Route>
-                    <h1 className="text-dark">404 страница не найдена</h1>
-                </Route>
-            </Switch>
-        </div>
-    );
+        return (
+            <div className="App">
+                <Switch>
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/courses" exact component={Courses}/>
+                    <Route path="/dev" exact component={Dev}/>
+                    <Route path="/login" exact component={Login}/>
+                    {outAdminComponent()}
+                    {outRoutes()}
+                    <Route>
+                        <h1 className="text-dark">404 страница не найдена</h1>
+                    </Route>
+                </Switch>
+            </div>
+        );
 }
 
 

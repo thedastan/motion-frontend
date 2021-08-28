@@ -1,0 +1,163 @@
+#timer {
+    width: 1170px;
+    height: 120px;
+    background: #000000;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.timer-title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    letter-spacing: 0.055em;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+.timer-box {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 470px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.timer-text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.timer-count {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 29px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+
+@media (max-width: 1024px) {
+
+
+    #timer {
+        width: 950px;
+    }
+
+    .timer-title {
+        font-size: 28px;
+    }
+
+    .timer-text {
+        margin-left: 30px;
+        margin-top: 8px;
+    }
+
+    .timer-box {
+        width: 430px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #timer {
+        margin-top: 430px;
+        width: 690px;
+        height: 160px;
+    }
+
+    .timer-box {
+        display: flex;
+        width: 400px;
+        height: 102px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .timer-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .timer-count {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #timer {
+        width: 516px;
+
+    }
+
+    .timer-box {
+        width: 333px;
+        height: 94px;
+    }
+
+    .timer-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 415px) {
+    #timer {
+        width: 390px;
+        margin-top: 230px;
+    }
+
+    .timer-count {
+        margin-top: 3px;
+    }
+
+    .timer-title {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    #timer {
+        width: 350px;
+    }
+
+    .timer-title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    #timer {
+        width: 290px;
+        margin-top: 250px;
+    }
+    .timer-title {
+        font-size: 12px;
+    }
+    .timer-box {
+        width: 260px;
+        height: 81px;
+    }
+    .timer-text {
+        font-size: 14px;
+    }
+    .timer-count {
+        font-size: 24px;
+    }
+}

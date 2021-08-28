@@ -1,10 +1,13 @@
 import React from 'react';
-import Main from "../../compnents/Main/Main";
+
+import MyApp from "../../compnents/Main/MyApp";
+import 'bootstrap'
 
 const Home = () => {
     return (
-        <div>
-            <Main />
+        <div className="container">
+            <MyApp />
+
         </div>
     );
 };

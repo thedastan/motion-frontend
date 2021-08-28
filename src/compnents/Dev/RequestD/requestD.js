@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import axiosAPI from "../../axiosAPI";
+import axiosAPI from "../../../axiosAPI";
 
 
-const Request = () => {
+const RequestD = () => {
     const [reqs, setReqs] = useState({
         name: '',
         phone: '',
@@ -75,4 +75,4 @@ const Request = () => {
       </section>
   )
 }
-export default Request
+export default RequestD

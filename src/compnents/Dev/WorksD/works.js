@@ -1,12 +1,12 @@
 import React, {useState} from "react";
-import './css/dev_style.css'
+import '../css/dev_style.css'
 import 'react-bootstrap'
 import Project_item from "./project_item";
-import axiosAPI from "../../axiosAPI";
-import MyLoader from "./ContentLoader";
+import axiosAPI from "../../../axiosAPI";
+import MyLoader from "../ContentLoader";
 
 
-const Baz2 = () => {
+const Works = () => {
     const [projects, setProjects] = useState([])
     const [isLoaded, setIsLoaded] = useState(false)
     const [hasErr, setHasErr] = useState(false)
@@ -60,4 +60,4 @@ const Baz2 = () => {
     )
 }
 
-export default Baz2
+export default Works

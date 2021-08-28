@@ -1,7 +1,7 @@
 import React from 'react';
-import Ani from './img/ani.png'
+import Ani from '../img/ani.png'
 
-const Studio = () => {
+const StudioD = () => {
     return (
         <section id="studio">
             <div className="container">
@@ -25,4 +25,4 @@ const Studio = () => {
         </section>
 )
 }
-export default Studio
+export default StudioD

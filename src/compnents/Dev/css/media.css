@@ -1,7 +1,5 @@
 @media (max-width: 1024px) {
-    #hero {
-        min-height: 80vh;
-    }
+
     .flip-clock-wrapper div ul {
         width: 32px;
         height: 63px;
@@ -9,18 +7,7 @@
     .nav {
         margin-left: 0;
     }
-    .hero__title {
-        font-size: 58px;
-    }
-    .hero-btn {
-        font-size: 13px;
-    }
-    .hero__img {
-        margin-top: 109px;
-        margin-left: 120px;
-        width: 450px;
-        height: 450px;
-    }
+
     .about_box {
         margin-left: -35px;
     }
@@ -101,20 +88,7 @@
     .nav__img {
         margin-left: 40px;
     }
-    .hero__title {
-        margin-top: 25px;
-        font-size: 56px;
-    }
-    .hero-btn {
-        font-size: 12px;
-        margin-top: -8px;
-    }
-    .hero__img {
-        margin-top: 132px;
-        margin-left: 140px;
-        width: 400px;
-        height: 400px;
-    }
+
     .about__block {
         width: 226px;
         height: 175px;
@@ -147,21 +121,17 @@
 
 }
 @media (max-width: 768px) {
-    .hero__img{
-        display: none;
-    }
+    /*.modal-btn{*/
+    /*    margin-left: 100px;*/
+    /*}*/
+
     #studio {
         height: 812px;
     }
     .nav{
         display: none;
     }
-    .hero-nav {
-        margin-left: 176px;
-    }
-    .hero__title {
-        font-size: 62px;
-    }
+
     .about__block {
         width: 168px;
         height: 151px;
@@ -222,6 +192,7 @@
     }
 }
 @media (max-width: 576px) {
+
     .hero-nav {
         margin-left: 239px;
     }
@@ -302,28 +273,7 @@
     .nav__img {
         margin-left: -50px;
     }
-    .hero-nav {
-        margin-left: 9px;
-    }
-    .hero__title {
-        font-size: 39px;
-    }
-    .hero__desc {
-        font-size: 13px;
-    }
-    .hero-btn {
-        font-size: 11px;
-        padding: 5px 10px;
-    }
-    .hero__p {
-        font-size: 10px;
-        margin-top: 16px;
-        width: 270px;
-    }
-    .img {
-        width: 300px;
-        height: 250px;
-    }
+
     .about_box {
         display: contents;
     }
@@ -400,12 +350,8 @@
     .first__block__center ul li a {
         font-size: 9px;
     }
-    .icon {
-        margin: 10px 10px;
-    }
-    .icon1{
-        margin-bottom: 10px;
-    }
+
+
     .ak1 {
         font-size: 7px;
     }

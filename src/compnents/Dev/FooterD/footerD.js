@@ -1,11 +1,11 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-import Facebook from "./img/facebook-circular-logo.svg"
-import Youtube from "./img/youtube.png"
-import Vk from "./img/vk-social-logotype.png"
-import Instagram from "./img/instagram.svg"
+import Facebook from "../img/facebook-circular-logo.svg"
+import Youtube from "../img/youtube.png"
+import Vk from "../img/vk-social-logotype.png"
+import Instagram from "../img/instagram.svg"
 
-const Footer2 = () => {
+const FooterD = () => {
     return (
         <section id="footer">
             <div className="container">
@@ -136,4 +136,4 @@ const Footer2 = () => {
         </section>
     )
 }
-export default Footer2
+export default FooterD

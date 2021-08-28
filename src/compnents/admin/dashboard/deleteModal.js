@@ -59,21 +59,21 @@ const DeleteModal = () => {
 	}
 
 	return (
-		<div class="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div className="modal fade show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div className={`register__loading ${isLoading && "active"}`}>
 				<i className="fas fa-spinner" />
 			</div>
-			<div class="modal-dialog">
-			    <div class="modal-content">
-				    <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">Удаление</h5>
+			<div className="modal-dialog">
+			    <div className="modal-content">
+				    <div className="modal-header">
+				        <h5 className="modal-title" id="exampleModalLabel">Удаление</h5>
 				    </div>
-				    <div class="modal-body">
+				    <div className="modal-body">
 				        <p className="text-dark">{message}</p>
 				    </div>
-				    <div class="modal-footer">
-				        	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onClick={closeModal}>Закрыть</button>
-				        <button type="button" class="btn btn-primary" onClick={deleteData}>Удалить</button>
+				    <div className="modal-footer">
+				        	<button type="button" className="btn btn-secondary" data-bs-dismiss="modal" onClick={closeModal}>Закрыть</button>
+				        <button type="button" className="btn btn-primary" onClick={deleteData}>Удалить</button>
 				   	</div>
 			    </div>
 			</div>

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import adminApi from '../../../http';
 import Item from './item';
+import Navigation from "../../../navigation";
 
 
 const ServiceOrderOut = () => {
@@ -132,6 +133,7 @@ const ServiceOrderOut = () => {
 
 	return (
 		<div className="position-relative">
+			<Navigation />
 			<div className={`register__loading ${changing ? "active": ""}`}>
 				<i className="fas fa-spinner" />
 			</div>

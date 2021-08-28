@@ -1,6 +1,6 @@
 import React from 'react'
 import 'react-bootstrap'
-import { imageUrl } from "../../backendUrl";
+import { imageUrl } from "../../../backendUrl";
 
 
 const Project_item = ({ item}) => {

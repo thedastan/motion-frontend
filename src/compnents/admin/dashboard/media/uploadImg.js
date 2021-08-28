@@ -1,6 +1,7 @@
 import React from 'react';
 
 import adminApi from '../../http';
+import Navigation from "../../navigation";
 
 
 const UploadImg = () => {
@@ -41,6 +42,7 @@ const UploadImg = () => {
 
 	return (	
 		<div className="position-relative">
+			<Navigation />
 			<div className={`register__loading ${isLoading ? "active": ""}`}>
 				<i className="fas fa-spinner" />
 			</div>

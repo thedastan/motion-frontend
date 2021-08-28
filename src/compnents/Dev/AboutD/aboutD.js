@@ -1,13 +1,13 @@
 import React from "react";
-import Group13 from './img/Group-13.png'
-import Group37 from './img/Group-37.png'
-import Group36 from './img/Group-36.png'
-import Tch from "./img/Tch.png"
-import './css/dev_style.css'
+import Group13 from '../img/Group-13.png'
+import Group37 from '../img/Group-37.png'
+import Group36 from '../img/Group-36.png'
+import Tch from "../img/Tch.png"
+import '../css/dev_style.css'
 
 
 
-const About2 = () => {
+const AboutD = () => {
     return (
         <section id="about">
             <div className="container">
@@ -43,4 +43,4 @@ const About2 = () => {
     )
 }
 
-export default About2
+export default AboutD

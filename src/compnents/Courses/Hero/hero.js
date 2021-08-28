@@ -11,7 +11,6 @@ const Hero = () => {
                     <div className="col-lg-6 col-md-12 ">
                         <h3 className="hero--title">1 күн бекер окуп  <br/> өзүңдү сынап көр</h3>
                         <p className="hero-description">Максаттарыңызга толук ылайык келген <br/> жолду тандаңыз.</p>
-
                     </div>
                     <img className="col-lg-6 col-md-12" src={HeroImg} alt=""/>
                 </div>

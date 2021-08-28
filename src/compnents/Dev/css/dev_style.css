@@ -22,9 +22,7 @@
 /*    font-weight: 700;*/
 /*}*/
 
-html {
-    overflow-x: hidden;
-}
+
 
 a, a {
     text-decoration: none;
@@ -32,27 +30,7 @@ a, a {
 }
 
 
-#hero2 {
-    background: url("../img/glava.png") no-repeat center/cover;
-    width: 100%;
-    min-height: 100vh;
-}
 
-.nav-bar {
-    position: fixed;
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 50px;
-    padding-top: 25px;
-    z-index: 4;
-    padding-left: 65px;
-
-}
-
-.nav__menu {
-    animation: nav ease-in 1s alternate;
-}
 
 @keyframes nav {
     from {
@@ -71,10 +49,6 @@ a, a {
     z-index: 5;
 }
 
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
 
 
 .nav {
@@ -97,45 +71,7 @@ html {
 }
 
 
-.header__title__it:hover {
-    color: #d4d1c8;
-    border-bottom: 4px solid #ff0e0e;
-    padding-bottom: 20px;
 
-}
-
-.header__title__it2:hover {
-    color: #FFFFFF;
-}
-
-.header__title__it2 {
-    display: flex;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 400;
-    margin: 0 8px;
-    padding-bottom: 20px;
-    border-bottom: 4px solid #ff0000;
-}
-
-
-.header__title__it {
-    display: flex;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 400;
-    margin: 0 8px;
-    padding-bottom: 20px;
-}
-
-.header__title {
-    display: flex;
-    margin-top: 16px;
-}
 
 dd, dl, dt, li, ol, ul {
     border: 0;
@@ -146,132 +82,7 @@ dd, dl, dt, li, ol, ul {
     list-style: none;
 }
 
-.btn {
-    margin-top: -10px;
-    margin-left: 15px;
-    display: flex;
-}
 
-
-.modal-btn {
-    width: 190px;
-    position: relative;
-    height: 45px;
-    background: transparent;
-    border-radius: 5px;
-    border: red 1px solid;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 15px;
-    font-weight: 450;
-    transform: scale(1);
-    color: #fff;
-}
-
-.modal-btn:hover {
-    transform: scale(1.05);
-    background: red;
-    color: #FFFFFF;
-}
-
-
-/*
-.close-btn{
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    background: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 10px;
-    top: 5px;
-}
-.close-btn:hover{
-    background: chartreuse;
-    transition: 0.7s;
-}
-*/
-
-
-.hero-btn {
-    padding: 10px 30px;
-    background: transparent;
-    border-radius: 5px;
-    border: red 1px solid;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: red;
-}
-
-.hero-btn:hover {
-    transform: scale(1.05);
-    background: red;
-    color: #FFFFFF;
-    border: none;
-}
-
-.hero__desc {
-    color: #FFFFFF;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
-
-.hero__p {
-    color: #FFFFFF;
-    width: 350px;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 11px;
-    font-weight: 420;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.hero__title {
-    margin-top: 50px;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 62px;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.icon {
-    color: #FFFFFF;
-    padding: 0 3px;
-    border-radius: 50%;
-    width: 30px;
-    margin: 0 10px;
-    height: 30px;
-    background: #FFFFFF;
-}
-
-.icon:hover {
-    transition: 0.3s;
-    transform: translate(0) scale(1.3);
-    background-color: #ff9025;
-}
-
-.icon1 {
-    color: #FFFFFF;
-    padding: 0 3px;
-    border-radius: 50%;
-    border: 0.5px solid #fff;
-    width: 32px;
-    margin: 0 10px;
-    height: 30px;
-    background: #FFFFFF;
-}
-
-.icon1:hover {
-    transition: 0.3s;
-    transform: translate(0) scale(1.1);
-    background-color: #ff9025;
-}
 
 .nav__img {
     cursor: pointer;
@@ -279,28 +90,9 @@ dd, dl, dt, li, ol, ul {
     margin-left: 80px;
 }
 
-.hero-nav {
-    margin-top: 120px;
-}
 
-.hero__img {
-    margin-top: 105px;
-    margin-left: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-    margin-bottom: 120px;
-    border-radius: 50%;
-    background: rgba(3, 3, 3, 0.73);
-    box-shadow: 3px 3px 25px -7px rgba(216, 216, 216, 0.25), -13px -4px 17px 3px rgba(0, 0, 0, 0.56);
-}
 
-.img {
-    width: 400px;
-    height: 400px;
-}
+
 
 
 /*==---------------------------------about---------------------------------------*/

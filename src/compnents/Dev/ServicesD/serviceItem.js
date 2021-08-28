@@ -1,5 +1,5 @@
 import React from "react";
-import {imageUrl} from "../../backendUrl";
+import {imageUrl} from "../../../backendUrl";
 
 
 const ServiceItem = ({item}) => {

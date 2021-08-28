@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 
 import Input from '../../input';
 import Select from './select';
+import Navigation from "../../navigation";
 
 
 const CourseField = ({ onSubmitHandler, initialValues }) => {
@@ -49,6 +50,7 @@ const CourseField = ({ onSubmitHandler, initialValues }) => {
 
 	return (
 		<div className="auth">
+			<Navigation />
 		  	<div className="register__container active">
 			    <div className="register__wrap">
 			        <div className="register__holder active">
@@ -69,16 +71,16 @@ const CourseField = ({ onSubmitHandler, initialValues }) => {
 			                     <form onSubmit={handleSubmit} className="registerForm">
 			                        <Input type="text" name="courseName" label="Имя курса"/>
 			                        <Input type="text" name="coursePrice" label="Цена курса"/>
-			                        <Input type="text" name="courseDiscount" label="Цена в месяц"/>
+			                        <Input type="text" name="courseDiscount" label="Старая Цена"/>
 			                        <Input type="text" name="imageUrl" label="Изображение"/>
 			                        <Input type="text" name="schedule" label="График курса"/>
 			                        <Input type="text" name="courseTime" label="Общяя время курса"/>
 			                        <Input type="text" name="tools" label="Изображение инструментов"/>
-			                        <Input type="text" name="courseDesc" label="courseDesc"/>
+			                        <Input type="text" name="courseDesc" label="Толоо планы"/>
 			                        <Select />
 			                        <div className="register__item">
 			                            <button type="submit" className="register__button">
-			                              Изменить
+											{initialValues._id ? "Изменить" : "Добавить"}
 			                            </button>
 			                            {state.courseChangeMessage && <div className="text-dark">{state.courseChangeMessage}</div>}
 			                        </div>

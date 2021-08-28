@@ -3,6 +3,7 @@ import * as Yup from 'yup';
 import { useSelector } from 'react-redux';
 
 import Input from '../../input';
+import Navigation from "../../navigation";
 
 
 const CourseField = ({ onSubmitHandler, initialValues }) => {
@@ -33,6 +34,7 @@ const CourseField = ({ onSubmitHandler, initialValues }) => {
 
 	return (
 		<div className="auth">
+			<Navigation />
 		  	<div className="register__container active">
 			    <div className="register__wrap">
 			        <div className="register__holder active">

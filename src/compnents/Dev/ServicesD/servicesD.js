@@ -1,9 +1,9 @@
 import React from 'react';
-import axiosAPI from "../../axiosAPI";
+import axiosAPI from "../../../axiosAPI";
 import ServiceItem from "./serviceItem";
 
 
-const Service1 = () => {
+const ServicesD = () => {
     const [isLoaded, setIsLoaded] = React.useState(false);
     const [services, setServices] = React.useState([]);
     const [hasError, setHasError] = React.useState(false);
@@ -50,4 +50,4 @@ const Service1 = () => {
     )
 
 }
-export default Service1
+export default ServicesD

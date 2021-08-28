@@ -37,11 +37,11 @@ const Form = () => {
             >
                 {({values, handleSubmit}) => (
                      <form onSubmit={handleSubmit} className="registerForm">
-                        <Input type="text" name="username" label="Username" />
-                        <Input type="text" name="password" label="password" />
+                        <Input type="text" name="Login" label="Логин" />
+                        <Input type="password" name="password" label="пароль" />
                         <div className="register__item">
                             <button type="submit" className="register__button">
-                              Submit
+                              Войти
                             </button>
                             {state.loginMessage && <h4 className="text-dark">{state.loginMessage}</h4>}
                         </div>

@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+#headerD {
+    position: absolute;
+    width: 100%;
+}
+
+a, a {
+    text-decoration: none;
+    color: #d4d1c8;
+}
+
+
+
+.logoD {
+    height: 95px;
+    width: 85px;
+
+}
+
+.logo-textD {
+    font-family:" Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #EF0000;
+}
+
+.nav-menuD {
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -60px;
+}
+
+.header__logo {
+    display:flex;
+}
+
+.nav-itemD {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 20px;
+    color: #FFFFFF;
+}
+
+.nav-itemD:hover {
+
+    color: #FA001D;
+
+
+}
+.nav-itemD:hover:before {
+    content: "";
+    width:160px;
+    height: 3px;
+    color: #FA001D;
+    bottom: -15px;
+    position: absolute;
+    border: 2px solid #FA001D;
+}
+
+@media (max-width:992px ) {
+    .nav-itemD {
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+    .header__logo {
+        display: flex;
+        flex-direction: column
+    }
+    .logo-textD {
+        margin-left: -40px;
+    }
+}
+
+
+@media (max-width: 768px ) {
+
+    .nav-menuD {
+        display: none;
+    }
+}
+@media (max-width:576px) {
+    .header__logo {
+        display: flex;
+        flex-direction:row;
+    }
+}
+@media (max-width:415px) {
+    .logoD {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+    }
+    .header__logo {
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-textD {
+        margin-left: 2px;
+    }
+}
